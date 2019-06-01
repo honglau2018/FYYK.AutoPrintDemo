@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYYK.AutoPrintDemo", "FYYK.AutoPrintDemo\FYYK.AutoPrintDemo.csproj", "{5EB7B87E-C3D3-4F4C-A97C-4FFF585189E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYYK.Util", "FYYK.Util\FYYK.Util.csproj", "{9A593F04-C2EA-4F32-B608-37237AFCBA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYYK.Model", "FYYK.Model\FYYK.Model.csproj", "{AFE26F83-4C2A-435A-9707-EC67704BEEE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5EB7B87E-C3D3-4F4C-A97C-4FFF585189E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EB7B87E-C3D3-4F4C-A97C-4FFF585189E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EB7B87E-C3D3-4F4C-A97C-4FFF585189E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A593F04-C2EA-4F32-B608-37237AFCBA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A593F04-C2EA-4F32-B608-37237AFCBA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A593F04-C2EA-4F32-B608-37237AFCBA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A593F04-C2EA-4F32-B608-37237AFCBA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE26F83-4C2A-435A-9707-EC67704BEEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE26F83-4C2A-435A-9707-EC67704BEEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE26F83-4C2A-435A-9707-EC67704BEEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE26F83-4C2A-435A-9707-EC67704BEEE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
