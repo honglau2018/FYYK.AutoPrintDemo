@@ -18,7 +18,6 @@ namespace FYYK.AutoPrintDemo
     {
 
         #region Form OnLoad
-
         /// <summary>
         /// frmMain
         /// </summary>

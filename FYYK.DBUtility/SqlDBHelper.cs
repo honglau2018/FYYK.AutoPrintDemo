@@ -10,11 +10,11 @@ namespace FYYK.DBUtility
 {
     public class SqlDbHelper
     {
-        private static readonly string _Server = "192.168.3.26";
+        private static readonly string _Server = "192.168.3.3";
         private static readonly string _Port = "1433";
-        private static readonly string _DataBase = "ksoa_mb";
+        private static readonly string _DataBase = "ksoa";
         private static readonly string _UserName = "sa";
-        private static readonly string _UserPassword = "fyyk@2018";
+        private static readonly string _UserPassword = "fyyk";
 
         #region connectionString 连接字符串
         /// <summary>  

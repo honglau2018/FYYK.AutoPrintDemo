@@ -334,11 +334,11 @@
             this.gridViewMainData.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridViewMainData.GridControl = this.gridControlMainData;
             this.gridViewMainData.Name = "gridViewMainData";
-            this.gridViewMainData.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridViewMainData_RowClick);
+            //this.gridViewMainData.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridViewMainData_RowClick);
             this.gridViewMainData.RowCellClick += new DevExpress.XtraGrid.Views.Grid.RowCellClickEventHandler(this.gridViewMainData_RowCellClick);
             this.gridViewMainData.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridViewMainData_CustomDrawRowIndicator);
-            this.gridViewMainData.Click += new System.EventHandler(this.gridViewMainData_Click);
-            this.gridViewMainData.DoubleClick += new System.EventHandler(this.gridViewMainData_DoubleClick);
+            //this.gridViewMainData.Click += new System.EventHandler(this.gridViewMainData_Click);
+            //this.gridViewMainData.DoubleClick += new System.EventHandler(this.gridViewMainData_DoubleClick);
             // 
             // panelControl3
             // 
