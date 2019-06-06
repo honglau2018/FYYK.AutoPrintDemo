@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYYK.Util", "FYYK.Util\FYYK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYYK.Model", "FYYK.Model\FYYK.Model.csproj", "{AFE26F83-4C2A-435A-9707-EC67704BEEE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FYYK.DBUtility", "FYYK.DBUtility\FYYK.DBUtility.csproj", "{A0AD4266-FEA0-483B-BBC6-7F5E7500D878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AFE26F83-4C2A-435A-9707-EC67704BEEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFE26F83-4C2A-435A-9707-EC67704BEEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFE26F83-4C2A-435A-9707-EC67704BEEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0AD4266-FEA0-483B-BBC6-7F5E7500D878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0AD4266-FEA0-483B-BBC6-7F5E7500D878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0AD4266-FEA0-483B-BBC6-7F5E7500D878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0AD4266-FEA0-483B-BBC6-7F5E7500D878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
