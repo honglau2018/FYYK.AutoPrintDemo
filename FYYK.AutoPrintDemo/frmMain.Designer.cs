@@ -67,7 +67,6 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.richEditControl1 = new DevExpress.XtraRichEdit.RichEditControl();
             this.gridControlDetailsData = new DevExpress.XtraGrid.GridControl();
             this.gridViewDetailsData = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.customersNavigationPage = new DevExpress.XtraBars.Navigation.NavigationPage();
@@ -334,11 +333,8 @@
             this.gridViewMainData.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridViewMainData.GridControl = this.gridControlMainData;
             this.gridViewMainData.Name = "gridViewMainData";
-            //this.gridViewMainData.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridViewMainData_RowClick);
             this.gridViewMainData.RowCellClick += new DevExpress.XtraGrid.Views.Grid.RowCellClickEventHandler(this.gridViewMainData_RowCellClick);
             this.gridViewMainData.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridViewMainData_CustomDrawRowIndicator);
-            //this.gridViewMainData.Click += new System.EventHandler(this.gridViewMainData_Click);
-            //this.gridViewMainData.DoubleClick += new System.EventHandler(this.gridViewMainData_DoubleClick);
             // 
             // panelControl3
             // 
@@ -432,22 +428,12 @@
             // 
             // panelControl2
             // 
-            this.panelControl2.Controls.Add(this.richEditControl1);
             this.panelControl2.Controls.Add(this.gridControlDetailsData);
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelControl2.Location = new System.Drawing.Point(0, 414);
             this.panelControl2.Name = "panelControl2";
             this.panelControl2.Size = new System.Drawing.Size(1872, 228);
             this.panelControl2.TabIndex = 2;
-            // 
-            // richEditControl1
-            // 
-            this.richEditControl1.Location = new System.Drawing.Point(1214, 6);
-            this.richEditControl1.MenuManager = this.ribbonControl;
-            this.richEditControl1.Name = "richEditControl1";
-            this.richEditControl1.Size = new System.Drawing.Size(546, 141);
-            this.richEditControl1.TabIndex = 2;
-            this.richEditControl1.Text = "richEditControl1";
             // 
             // gridControlDetailsData
             // 
@@ -576,7 +562,6 @@
         private DevExpress.XtraEditors.TextEdit textEditBillCode;
         private DevExpress.XtraGrid.GridControl gridControlDetailsData;
         private DevExpress.XtraGrid.Views.Grid.GridView gridViewDetailsData;
-        private DevExpress.XtraRichEdit.RichEditControl richEditControl1;
         //private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
     }
 }

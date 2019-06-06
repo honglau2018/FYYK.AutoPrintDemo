@@ -198,7 +198,8 @@ namespace FYYK.AutoPrintDemo
                                                                  new System.Data.SqlClient.SqlParameter("@BillCode", string.Format("{0}%",billCode))};
             this.gridControlMainData.DataSource = FYYK.DBUtility.SqlDbHelper.ExecuteDataTable(CommandType.Text, strSql, sqlParameter);
             FYYK.Util.DevGridControlHelper.GridViewColumnAutoWidth(this.gridViewMainData);
-            GetDetailsData();
+            if(this.gridViewMainData.RowCount>0)
+                GetDetailsData();
         }
         #endregion
 
